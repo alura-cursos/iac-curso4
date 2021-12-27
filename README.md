@@ -33,8 +33,11 @@ O projeto foi desenvolvido no VSC (Visual Studio Code), sendo assim, instale o V
 Vá até a paste a abra a pasta do projeto. Apos abrir o projeto abra um terminal, pode ser o integrado com o VSC, navegue até as pastas `infra/`,`env/Prod` e `env/homolog` e execute o comando `terraform init` dentro delas, agora temos o terraform iniciado e podemos começar a ultiliza-lo. Para criar a infraestrutura, execute o terraform apply em uma das pastas de Produção (`env/Prod`) ou de Homologação (`env/homolog`) de acordo com o ambiente desejado.
 
 Em seguida atualize o ambiente para a ultima versão de produção com:
+
 ```aws elasticbeanstalk update-environment --environment-name ambinete-de-producao --version-label ambinete-de-producao```
+
 ou para homologação com:
+
 ```aws elasticbeanstalk update-environment --environment-name ambinete-de-homolog --version-label ambinete-de-homolog```
 
 🏆
