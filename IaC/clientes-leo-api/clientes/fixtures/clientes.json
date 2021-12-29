@@ -1,0 +1,42 @@
+[
+    {
+        "model": "clientes.cliente",
+        "pk": 1,
+        "fields": {
+            "nome":"Leonardo",
+            "email":"leo@alura.com"
+        } 
+    },
+    {
+        "model": "clientes.cliente",
+        "pk": 2,
+        "fields": {
+            "nome":"Juliana",
+            "email":"juliana@alura.com"
+        } 
+    },
+    {
+        "model": "clientes.cliente",
+        "pk": 3,
+        "fields": {
+            "nome":"Ana",
+            "email":"ana@alura.com"
+        } 
+    },
+    {
+        "model": "clientes.cliente",
+        "pk": 4,
+        "fields": {
+            "nome":"Andre",
+            "email":"andre@alura.com"
+        } 
+    },
+    {
+        "model": "clientes.cliente",
+        "pk": 5,
+        "fields": {
+            "nome":"Guilherme",
+            "email":"guilherme@alura.com"
+        } 
+    }
+]
